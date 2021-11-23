@@ -21,6 +21,19 @@
             background-color: burlywood;
         }
     </style>
+    <style>
+        .spot {
+            background-image: linear-gradient(90deg, white 50%, yellow 50%);
+            background-position: 0%;
+            background-size: 200%;
+            font-weight: 400;
+        }
+
+        .spotted {
+            background-position: -100%;
+            transition: all 1s;
+        }
+    </style>
     <title>人物特寫</title>
 </head>
 
@@ -50,33 +63,33 @@
 
     <div class="container-fluid" style="height: 320vh;background-color: beige;">
 
-        <div
-            style="position:absolute;top:225vh;right:70vw;height:43vh;width:20vw;background-color: white;z-index: 9999;">
-            <p style="padding: 15px;"><span>林‌承‌享‌藉‌由‌平‌面‌模‌特‌兒‌身‌分‌開‌啟‌演‌藝‌之‌路‌，‌走‌來‌卻‌非‌常‌不‌順。‌
+
+        <div class="slideanimate">
+            <div
+                style="position:absolute;top:225vh;right:70vw;height:50vh;width:20vw;background-color: white;z-index: 9999;">
+                <p style="padding: 15px;">
+                    林‌承‌享‌藉‌由‌平‌面‌模‌特‌兒‌身‌分‌開‌啟‌演‌藝‌之‌路‌，‌走‌來‌卻‌非‌常‌不‌順。‌
                     模‌特‌兒‌的‌市‌場‌較‌為‌侷‌限‌，‌男‌性‌的‌拍‌攝‌機‌會‌更‌少‌，‌較‌難‌有‌發‌展‌空‌間。
                     ‌因‌此‌他‌希‌望‌自‌己‌能‌轉‌型‌當‌演‌員‌，‌這‌也‌是‌他‌更‌喜‌歡‌的‌工‌作。‌
-                    林‌承‌享‌以‌認‌真‌的‌神‌情‌說‌：‌「演‌戲‌的‌故‌事‌可‌以‌造‌假‌，‌但‌你‌的‌心‌是‌真‌的。」‌
-                </span></p>
-        </div>
-        <div
-            style="position:absolute;top:225vh;right:70vw;height:48vh;width:20vw;background-color: white;z-index: 9999;">
-            <p style="padding: 15px;"><span>林‌承‌享‌藉‌由‌平‌面‌模‌特‌兒‌身‌分‌開‌啟‌演‌藝‌之‌路‌，‌走‌來‌卻‌非‌常‌不‌順。‌
-                    模‌特‌兒‌的‌市‌場‌較‌為‌侷‌限‌，‌男‌性‌的‌拍‌攝‌機‌會‌更‌少‌，‌較‌難‌有‌發‌展‌空‌間。
-                    ‌因‌此‌他‌希‌望‌自‌己‌能‌轉‌型‌當‌演‌員‌，‌這‌也‌是‌他‌更‌喜‌歡‌的‌工‌作。‌
-                    林‌承‌享‌以‌認‌真‌的‌神‌情‌說‌：<br><br>
-                    ‌&nbsp;&nbsp;&nbsp;「演‌戲‌的‌故‌事‌可‌以‌造‌假‌，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;‌但‌你‌的‌心‌是‌真‌的。」‌
-                </span></p>
+                    林‌承‌享‌以‌認‌真‌的‌神‌情‌說‌：<br><br>‌
+
+                    <span class="spot">‌「演‌戲‌的‌故‌事‌可‌以‌造‌假‌，‌但‌你‌的‌心‌是‌真‌的。」</span>
+                </p>
+            </div>
+
         </div>
 
+
+
         <div
-            style="position:absolute;top:280vh;right:45vw;height:48vh;width:20vw;background-color: white;z-index: 9999;">
+            style="position:absolute;top:280vh;right:45vw;height:45vh;width:20vw;background-color: white;z-index: 9999;">
             <p style="padding: 15px;"><span>在自己的演出作品中，林承享對短片《無期徒刑》的白志忠一角，
                     印象最為深刻。他飾演的劇中人物，具有以霸凌同儕為樂的性格，卻與他的真實人生相反。他特別提起，
                     孩童時期曾經遭受霸凌，同學對他言語攻擊，刻意集體排擠，都是他的負面回憶。
                 </span></p>
         </div>
         <div
-            style="position:absolute;top:350vh;right:70vw;height:38vh;width:20vw;background-color: white;z-index: 9999;">
+            style="position:absolute;top:350vh;right:70vw;height:30vh;width:20vw;background-color: white;z-index: 9999;">
             <p style="padding: 15px;"><span>正因這個角色和他原本個性不同，
                     更增添演出的挑戰性。為了演出霸凌者的角色，
                     他會先大量觀看類似的劇情，嘗試去讀取角色的心路，從劇情回推與思考行為背後的原因。‌
@@ -133,55 +146,76 @@
     <div class="container-fluid" style="height: 400vh;background-color: beige;">
 
 
-        <div style="position:absolute;top:950vh;left:10vw;height:25vh;width:20vw;background-color: white;z-index: 9999;">
+        <div
+            style="position:absolute;top:950vh;left:10vw;height:25vh;width:20vw;background-color: white;z-index: 9999;">
             <p style="padding: 15px;"><span>林承享藉由回顧作品反思，如果演出結束還記得細節，
                     就是沒有在當下，也就是機械化得操控自己去執行那些動作。
                 </span></p>
         </div>
 
-        <div style="position:absolute;top:1000vh;left:10vw;height:28vh;width:20vw;background-color: white;z-index: 9999;">
+        <div
+            style="position:absolute;top:1000vh;left:10vw;height:28vh;width:20vw;background-color: white;z-index: 9999;">
             <p style="padding: 15px;"><span>以早上洗漱為例，
                     一般人不會去預設洗漱的順序，但在演戲的狀態下，可能會太過意識，
                     而將動作程序化，或是做出多餘的動作，演出就會不自然。
                 </span></p>
         </div>
 
-        <div style="position:absolute;top:1050vh;left:10vw;height:25vh;width:20vw;background-color: white;z-index: 9999;">
+        <div
+            style="position:absolute;top:1050vh;left:10vw;height:25vh;width:20vw;background-color: white;z-index: 9999;">
             <p style="padding: 15px;"><span>他認為好的表演，應該要能說服觀眾，甚至打動自己，
                     就像催淚電影能夠渲染情緒那般的效果。
                 </span></p>
         </div>
 
 
-        <div style="position:absolute;top:1100vh;right:59vw;height:35vh;width:20vw;background-color: white;z-index: 9999;">
+        <div
+            style="position:absolute;top:1100vh;right:59vw;height:35vh;width:20vw;background-color: white;z-index: 9999;">
             <p style="padding: 15px;"><span>林承享身為自由接案的演藝者，為了配合防疫政策，大部分工作只能取消或延拍，
-                一度處於工作停擺的狀態。他認為自己是個工作狂，因為沒有經紀公司幫助，
+                    一度處於工作停擺的狀態。他認為自己是個工作狂，因為沒有經紀公司幫助，
                     必須積極跑試鏡與通告，消除空白期的焦慮感。
                 </span></p>
         </div>
 
-        
-        <div style="position:absolute;top:1150vh;right:59vw;height:39vh;width:20vw;background-color: white;z-index: 9999;">
+
+        <div
+            style="position:absolute;top:1150vh;right:59vw;height:39vh;width:20vw;background-color: white;z-index: 9999;">
             <p style="padding: 15px;"><span>實際上，他在進入演藝圈前也幾經碰壁，
                     當初先是找到網路人力銀行，嘗試了三、四家類似的演藝公司後，逐漸發現都是欺騙人的陷阱。
                     因緣際會下，他結識了已有人脈的圈內人，幫助他媒合資源，他才有機會演出，逐步在這塊領域深根。
                 </span></p>
         </div>
 
-        <div style="position:absolute;top:1200vh;right:59vw;height:30vh;width:20vw;background-color: white;z-index: 9999;">
+        <div
+            style="position:absolute;top:1200vh;right:59vw;height:30vh;width:20vw;background-color: white;z-index: 9999;">
             <p style="padding: 15px;"><span>今年26歲的林承享，在剛入行時就已明白，
                     演藝圈是道窄門，不一定能從中有所成就。<br>樂觀的他卻也認為，盡力去嘗試所獲得的經驗和感受，就是最大的收穫。
                 </span></p>
         </div>
-        <div style="position:absolute;top:1278vh;right:30vw;height:20vh;width:40vw;background-color: white;z-index: 9999;">
+        <!-- <div
+            style="position:absolute;top:1278vh;right:30vw;height:20vh;width:40vw;background-color: white;z-index: 9999;">
             <p style="padding: 15px;"><span> 他淡然說道：「就算沒有成功，那又如何？」言談間似乎很看得開。
                     目前他過著斜槓人生，除了演戲拍照，也有考健身教練執照，為自己的人生，
                     保留不同的可能性，期許能成為自己喜歡的樣子。
-                    
+
 
                 </span></p>
+        </div> -->
+
+        <div class="slideanimate">
+            <div
+                style="position:absolute;top:1278vh;right:30vw;height:20vh;width:41vw;background-color: white;z-index: 9999;">
+                <p style="padding: 15px;">他淡然說道：‌
+
+                    <span class="spot">‌「就算沒有成功，那又如何？」</span>
+                    言談間似乎很看得開。
+                    目前他過著斜槓人生，除了演戲拍照，也有考健身教練執照，為自己的人生，
+                    保留不同的可能性，期許能成為自己喜歡的樣子。
+                </p>
+            </div>
+
         </div>
-        
+
         <div class="sticky-top">
             <img id="img3" alt="img3" style="width:100%;position:relative;"
                 src="https://res.cloudinary.com/dvmvzmng3/image/upload/v1637602051/%E5%85%A7%E5%9C%96_qmc2gr.jpg" />
@@ -192,7 +226,7 @@
     <!-- footer -->
     <div style="height:100px;background-color:gray;color: white;">
         <p style="padding: 15px;">照片源自林承享 Shuang臉書粉絲專頁<br>
-        短片源自靠北影像工作室《無期徒刑》</p>
+            短片源自靠北影像工作室《無期徒刑》</p>
         <div>
             <!-- Optional JavaScript -->
             <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -208,6 +242,19 @@
                 integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
                 crossorigin="anonymous">
             </script>
+            <script>
+                $(function () {
+                    $(window).scroll(function () {
+                        var current_pos = $(document).scrollTop();
+                        var winh = $(window).height();
+                        $(".spot").each(function () {
+                            if (current_pos > $(this).offset().top - winh / 2) {
+                                $(this).addClass("spotted");
+                            }
+                        });
+                    });
+                });
+            </script>
 
             <script>
                 $(function () {
@@ -221,6 +268,8 @@
                     });
                 });
             </script>
+
+          
 </body>
 
 </html>
